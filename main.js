@@ -14,7 +14,7 @@ const getAllDistrict = async () => {
     // 接口地址： https://lbs.qq.com/webservice_v1/guide-region.html
     // key值，需要注册腾讯地图账号(https://lbs.qq.com/index.html)获取
 
-    const url = 'https://apis.map.qq.com/ws/district/v1/list?key=5R4BZ-4DV6U-PSOVB-BN47C-FVVC2-E4FRU';
+    const url = 'https://apis.map.qq.com/ws/district/v1/list?key=****';
 
     try{
         list = (await superagent.get(url)).body.result;
